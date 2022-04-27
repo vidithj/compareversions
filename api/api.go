@@ -5,7 +5,7 @@ import (
 )
 
 //compare both the version
-func Compare(version1, version2 string) int {
+func CompareVersions(version1, version2 string) int {
 	if version1 == version2 {
 		return 0
 	}

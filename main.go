@@ -15,6 +15,6 @@ func main() {
 	}
 
 	//return the compare result. If v1 > v2 result is 1 , if v1 < v2 result is -1 else result is 0
-	fmt.Println(api.Compare(os.Args[1], os.Args[2]))
+	fmt.Println(api.CompareVersions(os.Args[1], os.Args[2]))
 
 }
