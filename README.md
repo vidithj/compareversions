@@ -1,4 +1,4 @@
-# compareversions
+# compare versions
 Simple Program to compare versions. The program takes 2 versions as commandline arguments. The program compares both the version and returns result as below : 
 
 if version 1 > version 2 return 1
